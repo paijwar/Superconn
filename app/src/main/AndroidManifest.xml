@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="2"
+    android:versionName="1.1"
+    package="hzlabs.superconn" >
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <!--<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission android:name="android.permission.DEVICE_POWER"/>
+
+    -->
+
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20"
+        android:maxSdkVersion="20"
+        />
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name"
+
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <service android:name=".QuickStarter"
+
+            />
+
+        <service android:name=".RepeaterService"/>
+
+        <service android:name=".Repeater2"/>
+
+        <service android:name=".HealthyService"/>
+
+        <service android:name=".HealthyService2"/>
+
+        <service android:name=".HealthyServiceUn"/>
+
+        <receiver android:name=".ReceiverOff">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

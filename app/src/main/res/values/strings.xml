@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Superconn</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="ready_to_start">Start Superconn</string>
+
+    <string name="ready_to_stop">Stop</string>
+
+    <string name="sure1">  Are you sure \nyou want to change it?</string>
+
+<string name="qs">It is very important to use Superconn with quick starter. Otherwise, you always have to turn on and off your data connection.</string>
+
+    <string name="rep0">  Your internet connection will be closed down\nand notifications updated every 150 second.</string>
+    <string name="rep1">  Your internet connection will be closed down\nand notifications updated every 5 minute.</string>
+    <string name="rep2">  Your internet connection will be closed down\nand notifications updated every 10 minute.</string>
+    <string name="rep3">  Your internet connection will be closed down\nand notifications updated every 15 minute.</string>
+    <string name="rep4">  Your internet connection will be closed down\nand notifications updated every 30 minute.</string>
+
+<string name="qs_ana">When you need internet connection, touch\n Superconn icon which is always at the top of the screen.</string>
+
+    <string name="rh">If you have a problem with getting notification,\nopen rH2 time.</string>
+
+    <string name="per">Sorry,\nonly available for\nAndroid 4.1(Jelly Bean) and below\naccording to Android Permission Rules </string>
+
+</resources>
